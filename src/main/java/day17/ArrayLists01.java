@@ -2,6 +2,7 @@ package day17;
 
         import java.util.ArrayList;
         import java.util.Collections;
+        import java.util.Comparator;
 
 public class ArrayLists01 {
     public static void main(String[] args) {
@@ -15,6 +16,7 @@ public class ArrayLists01 {
         list.add(10);
         list.add(11);
         list.add(20);
+
 
         //Sort the list elements
         Collections.sort(list);

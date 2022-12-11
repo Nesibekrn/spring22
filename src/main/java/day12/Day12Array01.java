@@ -24,7 +24,7 @@ public class Day12Array01 {
         ages[1] = 20;
         ages[2] = 11;
         ages[3] = 9;
-
+ages[0]=11;
         System.out.println(Arrays.toString(ages));// [12, 20, 11, 9]
 
         //How to print array elements one by one
@@ -43,6 +43,7 @@ public class Day12Array01 {
 
         //How to create an array and assign values in short way
         String names[] = {"Tom", "Jim", "Alex", "Karl"};
+        names[0]="";
         System.out.println(Arrays.toString(names));//[Tom, Jim, Alex, Karl]
 
         //Find the total number of characters in array elements
@@ -51,6 +52,10 @@ public class Day12Array01 {
             total = total + names[i].length();
         }
         System.out.println(total);//14
+        String [] arr=new String[3];
+        arr[1]="5";
+        arr[2]="7";
+        System.out.println(Arrays.toString(arr));
     }
 }
 

@@ -4,7 +4,7 @@ public class E06 {
         Object obj = 70;
         convertObjectToString(obj);//ClassCastException ==> Runtime Exception
     }
-    public static void convertObjectToString(Object obj){
+    public static void convertObjectToString(Object obj) {
         try {
             String s = (String) obj;
             System.out.println(s);

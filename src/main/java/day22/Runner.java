@@ -16,8 +16,8 @@ public class Runner {
                      What can be the return type of the method produces a Dog object ==> Dog and Mammal
          */
     public static void main(String[] args) {
-        Cat c = new Cat();
-        c.eat();
+       // Cat c = new Cat();
+       // c.eat();
         Dog d = new Dog();
         d.eat();//Animals eat...
         //Dogs are animals so they eat as well...

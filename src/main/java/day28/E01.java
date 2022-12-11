@@ -13,6 +13,8 @@ public class E01 {
         divide(12, 3);// 4
         divide(0, 3);// 0
         divide(12, 0);// ArithmeticException
+
+
     }
     public static void divide(int a, int b){
         try {

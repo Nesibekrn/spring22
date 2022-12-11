@@ -78,5 +78,7 @@ public class Day07Switch01 {
             default:
                 System.out.println("Please enter a valid month name");
         }
+
+        }
     }
-}
+
